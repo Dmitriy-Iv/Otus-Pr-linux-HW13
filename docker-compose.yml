@@ -1,0 +1,18 @@
+# Версия docker-compose
+version: '3'
+# Список наших сервисов (контейнеров)
+services:
+    nginx:
+        # используем последний стабильный образ nginx
+        image: myiddockhub/nginx-for-phpinfo-otus:v1
+        # маршрутизируем порты
+        ports:
+            - "80:80"
+            - "443:443"
+        # nginx должен общаться с php контейнером
+        links:
+            - php
+    php:
+        # используем кастомный образ php:7.4-fpm
+        image: myiddockhub/php-fpm-for-phpinfo-otus:v1
+
