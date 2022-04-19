@@ -67,11 +67,12 @@ dima@Test-Ubuntu-1:~/otus/my-hw13$ curl http://localhost:8080
 <h1> Test page for Docker - Nginx <h1>
 </body>
 ```
+
 ![alt text](/screenshots/hw13-1.PNG?raw=true "Screenshot1") 
 
 4. Теперь логинемся в docker hub и загружаем туда наш image.
-dima@Test-Ubuntu-1:~/otus/my-hw13$ docker login
 ```
+dima@Test-Ubuntu-1:~/otus/my-hw13$ docker login
 Login with your Docker ID to push and pull images from Docker Hub. If you don't have a Docker ID, head over to https://hub.docker.com to create one.
 .....
 Login Succeeded
