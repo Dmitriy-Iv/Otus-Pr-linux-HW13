@@ -179,5 +179,5 @@ dima@Test-Ubuntu-1:~/otus/my-hw13-3$ docker-compose up -d
  ⠿ Container my-hw13-3-nginx-1  Started
  ```
 
- 4. Подключаемся по http до хостовой машины с другого компьютера и проверяем вывод.
+ 4. Подключаемся по http до хостовой машины с другого компьютера и проверяем вывод, либо в браузере самой хостовой машину - http://localhost/ .
  ![alt text](/screenshots/hw13-2.PNG?raw=true "Screenshot2") 
